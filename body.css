@@ -105,6 +105,20 @@ margin-top:9%;
   margin-top:40px;
 }
 
+
+.contentContainer{
+height:100%;
+margin-top:-56px
+padding-top:61px;
+padding-bottom:5px;
+text-align:center;
+}
+.fileImage{
+display:block; //already an attempt to fix, no effect
+height:auto; //same as above
+width:100%;
+}
+
 @media only screen and (max-width:800px) {
     /* For tablets: */
     .main {
