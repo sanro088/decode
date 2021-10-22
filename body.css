@@ -106,30 +106,7 @@ margin-top:9%;
 }
 
 
-.contentContainer{
-height:100%;
-margin-top:-56px
-padding-top:61px;
-padding-bottom:5px;
-text-align:center;
-}
-.fileImage{
-display:block; //already an attempt to fix, no effect
-height:auto; //same as above
-width:100%;
-}
 
-.fileImage{
-object-fit: contain;
-object-position: center;
-box-sizing:content-box; //again, just an attempt to fix current issue, no effect...
-max-width:100%;
-border:1px solid red;
-}
-.fileImage{
-object-fit: contain;
-max-width:100%;
-}
 
 @media only screen and (max-width:800px) {
     /* For tablets: */
@@ -142,10 +119,11 @@ max-width:100%;
       width: 100%;
     }
   }
-    @media only screen and (max-width:500px) {
-        /* For mobile phones: */
-        .menu, .main, .right {
-          width: 100%;
-        }
-      }
     
+    
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
