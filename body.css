@@ -126,6 +126,10 @@ box-sizing:content-box; //again, just an attempt to fix current issue, no effect
 max-width:100%;
 border:1px solid red;
 }
+.fileImage{
+object-fit: contain;
+max-width:100%;
+}
 
 @media only screen and (max-width:800px) {
     /* For tablets: */
