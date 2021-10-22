@@ -121,7 +121,7 @@ margin-top:9%;
   }
     
     
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 100%) {
   /* For mobile phones: */
   [class*="col-"] {
     width: 100%;
